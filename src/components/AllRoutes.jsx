@@ -12,8 +12,8 @@ export default function AllRoutes(){
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
-            <Route path="/login" element={<Login />} />
             <Route path="/ticket" element={<Ticket />} />
+            <Route path="/login" element={<Login />} />
         </Routes>
         </>
     )
