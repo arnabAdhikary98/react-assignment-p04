@@ -1,84 +1,60 @@
 {
-    "Tickets" : [
-        {
-            "id" : 1,
-            "title" : "Navbar Feature - Logout",
-            "description" : "Build a logout button within navbar",
-            "assignee" : "Rahul",
-            "status" : "pending",
-            "priority" : 0
-        },
-        {
-            "id" : 2,
-            "title" : "Login Page - UI Update",
-            "description" : "Update the UI of the login page",
-            "assignee" : "Arnab",
-            "status" : "progress",
-            "priority" : 3
-        },
-        {
-            "id" : 3,
-            "title" : "Signup Form Validation",
-            "description" : "Implement client-side validation",
-            "assignee" : "Akash",
-            "status" : "completed",
-            "priority" : 5
-        },
-        {
-            "id" : 4,
-            "title" : "Dashboard Analytics",
-            "description" : "Add charts to the dashboard",
-            "assignee" : "Rakesh",
-            "status" : "pending",
-            "priority" : 7
-        },
-        {
-            "id" : 5,
-            "title" : "Email Notifications",
-            "description" : "Set up email notifications for new messages",
-            "assignee" : "Animesh",
-            "status" : "progress",
-            "priority" : 4
-        },
-        {
-            "id" : 6,
-            "title" : "Password Reset",
-            "description" : "Develop password reset functionality",
-            "assignee" : "Ajay",
-            "status" : "completed",
-            "priority" : 2
-        },
-        {
-            "id" : 7,
-            "title" : "Profile Picture Upload",
-            "description" : "Allow users to upload profile pictures",
-            "assignee" : "Bishal",
-            "status" : "pending",
-            "priority" : 8
-        },
-        {
-            "id" : 8,
-            "title" : "Search Functionality",
-            "description" : "Implement search across the platform",
-            "assignee" : "Vikas",
-            "status" : "completed",
-            "priority" : 1
-        },
-        {
-            "id" : 9,
-            "title" : "User Roles Management",
-            "description" : "Develop user roles and permissions system",
-            "assignee" : "Alex",
-            "status" : "progress",
-            "priority" : 6
-        },
-        {
-            "id" : 10,
-            "title" : "Settings Page",
-            "description" : "Create a settings page for user preferences",
-            "assignee" : "Robin",
-            "status" : "pending",
-            "priority" : 9
-        }
-    ]
+  "Tickets": [
+    {
+      "title": "Dashboard Analytics and Update UI",
+      "description": "Dashboard Analytics and Update UI",
+      "assignee": "Rakesh",
+      "status": "progress",
+      "priority": 9,
+      "id": 4
+    },
+    {
+      "title": "Email Notifications and Validation",
+      "description": "Robin",
+      "assignee": "Animesh",
+      "status": "completed",
+      "priority": 2,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "title": "Password Reset",
+      "description": "Develop password reset functionality",
+      "assignee": "Ajay",
+      "status": "completed",
+      "priority": 2
+    },
+    {
+      "id": 7,
+      "title": "Profile Picture Upload",
+      "description": "Allow users to upload profile pictures",
+      "assignee": "Bishal",
+      "status": "pending",
+      "priority": 8
+    },
+    {
+      "id": 8,
+      "title": "Search Functionality",
+      "description": "Implement search across the platform",
+      "assignee": "Vikas",
+      "status": "completed",
+      "priority": 1
+    },
+    {
+      "id": 9,
+      "title": "User Roles Management",
+      "description": "Develop user roles and permissions system",
+      "assignee": "Alex",
+      "status": "progress",
+      "priority": 6
+    },
+    {
+      "id": 10,
+      "title": "Settings Page",
+      "description": "Create a settings page for user preferences",
+      "assignee": "Robin",
+      "status": "pending",
+      "priority": 9
+    }
+  ]
 }
