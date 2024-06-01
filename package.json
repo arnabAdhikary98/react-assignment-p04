@@ -15,6 +15,7 @@
     "@emotion/styled": "^11.11.5",
     "axios": "^1.7.2",
     "framer-motion": "^11.2.10",
+    "json-server": "^1.0.0-beta.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1"
@@ -28,5 +29,18 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
-  }
+  },
+  "description": "- Using the following tools and technologies: React (useState, useContext, useEffect, useRef), Chakra UI, React Router, and Axios, your task is to build a web application with the following features:",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnabAdhikary98/react-assignment-p04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arnabAdhikary98/react-assignment-p04/issues"
+  },
+  "homepage": "https://github.com/arnabAdhikary98/react-assignment-p04#readme"
 }

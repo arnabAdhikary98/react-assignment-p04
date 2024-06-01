@@ -4,7 +4,7 @@ export const AuthContext = createContext();
 
 export function AuthContextProvider({ children }){
     const [authDetails, setAuthDetails] = useState({
-        isLoggedIn : false,
+        isLoggedIn : true,
         token: null
     })
 

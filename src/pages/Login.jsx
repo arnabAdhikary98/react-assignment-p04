@@ -2,12 +2,13 @@ import { Box, Heading, Input, Button, VStack, Container } from "@chakra-ui/react
 import { useContext, useState } from "react"
 import axios from "axios"
 import { AuthContext } from "../Context/AuthContextProvider"
+import { Navigate } from "react-router-dom"
 
 export default function Login(){
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
 
-    const { login } = useContext(AuthContext)
+    const { login, authDetails: { isLoggedIn } } = useContext(AuthContext)
 
     async function handleClick(){
         try {
@@ -24,6 +25,10 @@ export default function Login(){
             console.log(error)
         }
     }
+
+    if (isLoggedIn){
+        return <Navigate to="/" />
+    } 
 
     return(
         <Container maxW="md">

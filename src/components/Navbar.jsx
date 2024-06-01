@@ -17,8 +17,8 @@ const links = [
         label: "CONTACT"
     },
     {
-        to: "/Ticket",
-        label: "TICKET"
+        to: "/tickets",
+        label: "TICKETS"
     },
     {
         to: "/login",

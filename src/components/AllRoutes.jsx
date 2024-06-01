@@ -3,7 +3,10 @@ import Home from "../pages/Home"
 import About from "../pages/About"
 import Contact from "../pages/Contact"
 import Login from "../pages/Login"
-import Ticket from "../pages/Ticket"
+import Tickets from "../pages/Tickets"
+import TicketCreate from "../pages/TicketCreate"
+import TicketView from "../pages/TicketView"
+import TicketEdit from "../pages/TicketEdit"
 import { useContext } from "react"
 import { AuthContext } from "../Context/AuthContextProvider"
 
@@ -31,14 +34,29 @@ export default function AllRoutes(){
                     <About />                   
                 </PrivateRoute>
             } />
-            <Route path="/Contact" element={
+            <Route path="/contact" element={
                 <PrivateRoute>
                     <Contact />
                 </PrivateRoute>
             } />
-            <Route path="/ticket" element={
+            <Route path="/tickets" element={
             <PrivateRoute>
-                <Ticket />
+                <Tickets />
+            </PrivateRoute>
+            } />
+            <Route path="/tickets/create" element={
+            <PrivateRoute>
+                <TicketCreate />
+            </PrivateRoute>
+            } />
+            <Route path="/tickets/view/:id" element={
+            <PrivateRoute>
+                <TicketView />
+            </PrivateRoute>
+            } />
+            <Route path="/ticket/edit/:id" element={
+            <PrivateRoute>
+                <TicketEdit />
             </PrivateRoute>
             } />
             <Route path="/login" element={
